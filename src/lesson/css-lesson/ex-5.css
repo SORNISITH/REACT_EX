@@ -1,0 +1,79 @@
+form {
+  display: inline;
+}
+
+#Ex5-container {
+  display: flex;
+}
+
+#Ex5-side {
+  width: 30%;
+}
+form {
+  display: flex;
+  text-align: left;
+  font-size: 1.8rem;
+}
+#Ex5-main {
+  width: 70%;
+  border: 1px solid black;
+}
+
+button {
+  margin-top: 10px;
+}
+button:active {
+  background-color: aquamarine;
+}
+table {
+  cursor: pointer;
+  padding: 10px;
+
+  width: 100%;
+  text-align: left;
+}
+th {
+  text-transform: uppercase;
+  text-align: left;
+  background-color: rgb(9, 9, 9);
+}
+
+table,
+th {
+  border: 1px solid rgb(25, 203, 2);
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 1px solid rgb(25, 203, 2, 0.5);
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding-left: 10px;
+}
+tr:hover {
+  background-color: rgb(17, 140, 0, 0.5);
+}
+
+button {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.btn-container {
+  margin-left: 10px;
+  display: block;
+}
+
+#get-btn {
+  background-color: royalblue;
+}
+#rm-btn {
+  background-color: rgb(255, 0, 0);
+}
